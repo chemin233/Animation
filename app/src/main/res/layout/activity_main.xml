@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a00327927.animationproject.MainActivity">
+
+    <Button
+        android:id="@+id/btn_tween"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="补间动画"
+        />
+
+    <Button
+        android:id="@+id/btn_animator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="属性动画"
+        />
+
+    <Button
+        android:id="@+id/btn_choiceview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="选择动画"
+        />
+
+</LinearLayout>

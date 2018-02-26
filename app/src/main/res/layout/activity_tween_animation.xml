@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a00327927.animationproject.TweenAnimation">
+
+
+    <TextView
+        android:id="@+id/tv_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="旋转跳跃"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <RadioButton
+            android:id="@+id/rb_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩放"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位移"
+            />
+        <RadioButton
+            android:id="@+id/rb_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="透明度"
+            />
+        <RadioButton
+            android:id="@+id/rb_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="组合"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
